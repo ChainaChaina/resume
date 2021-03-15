@@ -1,0 +1,52 @@
+
+
+.position{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-self: center;
+  
+
+}
+
+.body{
+    color: #acff7c;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-self: center;
+    height: 25rem;
+    width: 17rem;
+    background-color: #122642;
+    border: #acff7c;
+    border-style: solid;
+}
+
+.tilt{
+    transform-style: preserve-3d;
+    margin: 0rem 10rem;
+}
+
+.body img{
+    
+    margin: 1rem;
+    align-self: center;
+    width: 10rem;
+    height: 9rem;
+    border-radius: 10px;
+    transform: translateZ(30px);
+}
+
+.body h1{
+    align-self: center;
+    transform: translateZ(50px);
+}
+
+.body p{
+    margin: 0px;
+    padding: 0rem 1rem;
+    transform: translateZ(30px);
+    font-size: 18px;
+
+
+}
