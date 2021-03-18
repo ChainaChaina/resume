@@ -9,7 +9,7 @@ export default function ProfileCard() {
             <h1>Lucas Borges</h1>
             <p>25 anos</p>
 
-            <p>Frontend wanna be.</p>
+            <p>Frontend wannabe.</p>
             <span className={style.subText}>Eu gosto muito de UI, UX e de desing em geral. Meu objetivo atual é focar em frontend full-time, mas atualmente sou fullstack das minhas próprias invenções.</span>
             
         </div>
