@@ -1,5 +1,4 @@
 import React from 'react'
-import Tilt from 'react-tilt'
 import style from '../styles/ProfileCard.module.css'
 
 
@@ -11,7 +10,7 @@ export default function ProfileCard() {
             <p>25 anos</p>
 
             <p>Frontend wanna be.</p>
-            <p className={style.subText}>Eu gosto muito de UI, UX e de desing em geral. Meu objetivo atual é focar em frontend full-time, mas eu também sei um pouco de back</p>
+            <span className={style.subText}>Eu gosto muito de UI, UX e de desing em geral. Meu objetivo atual é focar em frontend full-time, mas atualmente sou fullstack das minhas próprias invenções.</span>
             
         </div>
     )

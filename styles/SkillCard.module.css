@@ -5,26 +5,31 @@
     border-radius: 10px;
     flex-direction: column;
     align-self: center;
-  
 
 }
 
 .body{
+    
     color: #acff7c;
     display: flex;
     border-radius: 10px;
+    display: flex;
     flex-direction: column;
     align-self: center;
-    height: 25rem;
-    width: 17rem;
+    min-height: 30rem;
+    min-width: 17rem;   
+    align-items: center;
     background-color: #122642;
     border: #acff7c;
     border-style: solid;
+    margin: 2rem;
 }
 
 .tilt{
     transform-style: preserve-3d;
-    margin: 0rem 10rem;
+    margin:  auto;
+    width: 30rem;
+    height: auto;
 }
 
 .body img{
@@ -40,13 +45,23 @@
 .body h1{
     align-self: center;
     transform: translateZ(50px);
+    font-size: 1.8rem;
 }
 
 .body p{
-    margin: 0px;
+    margin: 0rem;
     padding: 0rem 1rem;
     transform: translateZ(30px);
-    font-size: 18px;
+    padding: 2rem;
+    font-size: 1.6rem;
 
 
 }
+
+
+@media screen and (min-width: 1200px) {
+   .tilt{
+       margin: 5rem;
+   }
+  }
+  

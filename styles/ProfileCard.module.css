@@ -1,14 +1,12 @@
 .container{
     /* background-color: #023047; */
     background-color: #122642;
-    max-width: 35rem;
-    max-height: 40rem;
-    border-radius: 10px;
-
+    max-width: 38rem;
+    min-height: 8rem;
+    border-radius: 1rem;
     display:flex;
     flex-direction: column;
     align-self: center;
-    padding: 2rem;
     color: #acff7c;
     
 }
@@ -23,6 +21,7 @@
 }
 
 .container h1{
+    font-size: 2.5rem;
     align-self: center;
     margin: 0%;
     font-family: 'Poppins', sans-serif;
@@ -31,13 +30,20 @@
 
 .container > p{
     margin: 0;
+    font-size: 1.5rem;
     align-self: center;
     padding: 0.2rem 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    text-align: left
 }
 
 .subText{
-    font-size: 20px;
+    font-size: 1.3rem;
+    margin: 3rem;
 }
+
+@media screen and (max-width: 950px) {
+    .container{
+     margin-top: 19rem;
+    }
+  }

@@ -17,3 +17,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1200px) {
+  html,body {
+    font-size: 70%;
+    
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+  html,body {
+    font-size: 60%;
+    
+  }
+}
+

@@ -1,17 +1,13 @@
-.container{
-  height: 70vh;
-  width: 100vw;
+.containerProfile{
+  height: 100vh;
   background-color: #1d3557;
-  margin: 0 auto;
-  padding: 10rem 2rem;
-
+  padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
+  align-content: center;
+  
 }
-.spacer{
-  height: 10rem;
-  background-color: #040e1d;
-}
+
 
 .siteBody{
   display: flex;
@@ -19,16 +15,17 @@
   display: flex;
   flex-wrap: wrap;
   flex: 1;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0%;
   margin: 0%;
-  min-height: 110vh;
+  min-height: 350vh;
   background-color: #040e1d;
 }
 
 .wave{
+
   position: relative;
-  bottom: -20px;
+  bottom: -1rem;
   padding: 0%;
   margin: 0%;
 }
