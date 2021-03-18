@@ -1,7 +1,8 @@
-import Head from 'next/head'
+
 import ProfileCard from '../components/ProfileCard.tsx'
 import style from '../styles/Home.module.css'
 import SkillCard from '../components/SkillCard.tsx'
+import Tilt2 from '../components/tilt2'
 
 
 
@@ -25,6 +26,9 @@ export default function Home() {
         <SkillCard skill ="CSS" nv='"Por favor pare de usar table para criar sites"' img = "https://diegomariano.com/wp-content/uploads/2020/08/logo-2582747_640-e1597771254582.png"></SkillCard>
         <SkillCard skill ="MySQL" nv="Faço algumas linhas no meu emprego atual" img = "https://devtools.com.br/blog/wp-content/uploads/2013/06/MySQL-Logo.wine_.png"></SkillCard>
       
+      </div>
+      <div>
+        <Tilt2></Tilt2>
       </div>
     </div>
   )
