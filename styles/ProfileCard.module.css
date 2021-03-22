@@ -11,6 +11,13 @@
     
 }
 
+.tilt{
+    transform-style: preserve-3d;
+    margin:  auto;
+    width: 30rem;
+    height: auto;
+}
+
 .container img{
    max-width: 12rem;
    align-self: center;
@@ -18,6 +25,7 @@
    margin: 2rem;
    border: #acff7c;
    border-style: solid;
+   transform: translateZ(50px);
 }
 
 .container h1{
@@ -26,6 +34,7 @@
     margin: 0%;
     font-family: 'Poppins', sans-serif;
     padding: 0px;
+    transform: translateZ(45px);
 }
 
 .container > p{
@@ -35,11 +44,13 @@
     padding: 0.2rem 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    transform: translateZ(75px);
 }
 
 .subText{
     font-size: 1.3rem;
     margin: 3rem;
+    transform: translateZ(70px);
 }
 
 @media screen and (max-width: 950px) {
