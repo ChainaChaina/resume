@@ -4,7 +4,7 @@ import Tilt from 'react-parallax-tilt'
 
 export default function ProfileCard() {
     return (
-        <Tilt className={style.tilt} gyroscope={true} tiltMaxAngleX={30} tiltMaxAngleY={30} tiltAngleXInitial={-90}>
+        <Tilt className={style.tilt} gyroscope={true} tiltMaxAngleX={20} tiltMaxAngleY={20}>
             <div className={style.container}>
                 <img src="https://github.com/chainachaina.png" alt="" />
                 <h1>Lucas Borges</h1>
