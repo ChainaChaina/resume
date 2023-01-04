@@ -1,10 +1,10 @@
 import React from 'react'
 import style from '../styles/SkillCard.module.css'
-import Tilt from 'react-tilt'
+import Tilt from 'react-parallax-tilt'
 
 export default function SkillCard(props) {
     return (
-        <Tilt className={style.tilt} options={{ max: 60, reset: true, scale: 1.1,  }}  >
+        <Tilt reset={false} gyroscope={true} tiltMaxAngleX={20} tiltMaxAngleY={20} className={style.tilt} >
             <div className={style.body} >
                 <img src={props.img} alt="" />
                 <h1>{props.skill}</h1>

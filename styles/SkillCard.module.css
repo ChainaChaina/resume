@@ -38,6 +38,8 @@
     align-self: center;
     width: 10rem;
     height: 9rem;
+    max-width: 10rem;
+    max-height: 9rem;
     border-radius: 10px;
     transform: translateZ(30px);
 }
