@@ -25,7 +25,23 @@
    margin: 2rem;
    border: #acff7c;
    border-style: solid;
-   transform: translateZ(50px);
+}
+
+.spanClick{
+    display: none;
+}
+
+.container:hover{
+    cursor: pointer;
+}
+
+.tilt:hover .spanClick{
+    display: flex;
+    font-size: 28px;
+    color: #acff7c;
+    margin-left: 10px;
+    position: absolute;
+    top: -37px;
 }
 
 .container h1{
@@ -52,9 +68,3 @@
     margin: 3rem;
     transform: translateZ(70px);
 }
-
-@media screen and (max-width: 950px) {
-    .container{
-     margin-top: 19rem;
-    }
-  }

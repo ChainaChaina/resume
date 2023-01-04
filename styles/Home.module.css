@@ -8,22 +8,20 @@
   
 }
 
-
 .siteBody{
   display: flex;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   flex: 1;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0%;
   margin: 0%;
-  min-height: 350vh;
+  min-height: 150vh;
   background-color: #040e1d;
 }
 
 .wave{
-
   position: relative;
   bottom: -1rem;
   padding: 0%;

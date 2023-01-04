@@ -3,14 +3,20 @@ import style from '../styles/ProfileCard.module.css'
 import Tilt from 'react-parallax-tilt'
 
 export default function ProfileCard() {
+
+    const openInNewTab = (url) => {
+        window.open(url, '_blank', 'noreferrer');
+      };
+
     return (
-        <Tilt className={style.tilt} gyroscope={true} tiltMaxAngleX={20} tiltMaxAngleY={20}>
-            <div className={style.container}>
-                <img src="https://github.com/chainachaina.png" alt="" />
+        <Tilt reset={false} className={style.tilt} gyroscope={true} tiltMaxAngleX={20} tiltMaxAngleY={20}>
+            <span className={style.spanClick}>Github!</span>
+            <div onClick={() => openInNewTab('https://github.com/ChainaChaina')} className={style.container}>
+                <img src="https://avatars.githubusercontent.com/u/26202552?v=4" alt="" />
                 <h1>Lucas Borges</h1>
-                <p>25 anos</p>
-                <p>Frontend wannabe.</p>
-                <span className={style.subText}>Eu gosto muito de UI, UX e de desing em geral. Meu objetivo atual é focar em frontend full-time, mas atualmente sou fullstack das minhas próprias invenções.</span>
+                <p>27 anos</p>
+                <p>Desenvolvedor Frontend</p>
+                <span className={style.subText}>Frontend no mercado, fullstack das meus próprios projetos e jogos.</span>
             </div>
         </Tilt>
     )
