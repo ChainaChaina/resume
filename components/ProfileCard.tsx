@@ -9,7 +9,7 @@ export default function ProfileCard() {
       };
 
     return (
-        <Tilt reset={false} className={style.tilt} gyroscope={true} tiltMaxAngleX={20} tiltMaxAngleY={0}>
+        <Tilt reset={false} className={style.tilt} gyroscope={true} tiltMaxAngleX={0} tiltMaxAngleY={20}>
             <span className={style.spanClick}>Github!</span>
             <div onClick={() => openInNewTab('https://github.com/ChainaChaina')} className={style.container}>
                 <img src="https://avatars.githubusercontent.com/u/26202552?v=4" alt="" />
